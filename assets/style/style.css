@@ -1,0 +1,42 @@
+/* Imports */
+
+@import "ZeroingOut.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Viga&display=swap');
+
+/* Started Styles */
+
+body {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+.container {
+    max-width: 1782px;
+    padding: 0 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    min-height: 100vh;
+    background: black;
+}
+
+/* General Classes */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
