@@ -21,7 +21,8 @@ body {
     width: 100%;
 }
 
-img {
+img,
+svg {
     max-width: 100%;
     height: auto;
 }
@@ -102,6 +103,7 @@ img {
     width: 100%;
     position: absolute;
     top: 53px;
+    z-index: 999;
 }
 
 .header__container {
@@ -114,6 +116,11 @@ img {
 
 .header__link {
     color: white;
+    transition: color .2s ease;
+}
+
+.header__link:hover {
+    color: #707aff;
 }
 
 .header__theme-btn,
@@ -121,9 +128,15 @@ img {
     background: none;
 }
 
+.header__theme-btn:hover > svg,
+.header__search-btn:hover > svg {
+    fill: gray;
+}
+
 .header__theme-btn-icon,
 .header__search-btn-icon {
     width: 25px;
+    transition: all .2s ease;
 }
 
 .header__column_buttons {
@@ -194,6 +207,12 @@ img {
     position: relative;
     margin-top: 20px;
     display: inline-block;
+    transition: all .2s ease;
+}
+
+.home__view-link:hover {
+    color: #707aff;
+    border-bottom: 1px solid #707aff;
 }
 
 .home__view-link::before {
@@ -212,6 +231,11 @@ img {
     background: none;
 }
 
+.home__arrow-btn:hover > svg {
+    fill: gray;
+}
+
 .home__arrow-btn-icon {
     width: 41px;
+    transition: all .2s ease;
 }
