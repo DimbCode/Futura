@@ -200,6 +200,7 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s ease;
 }
 
 .home__item:nth-child(1) {
