@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/style.css">
     <title>Document</title>
 </head>
@@ -88,10 +89,13 @@
         <!-- Main -->
 
         <main class="main">
-            <section class="home"> 
+
+            <!-- Home -->
+
+            <section class="home" data-aos="fade" data-aos-duration="2000" data-aos-delay="1000"> 
 
                 <section class="home__item">
-                    <div class="container">
+                    <div class="container home__container">
 
                         <section class="home__row home__row_offer">
                             <h4 class="title-mini home__section-title">
@@ -108,37 +112,11 @@
                             </a>
                         </section>
 
-                        <section class="home__row home__row_progress-bar">
-                            <button class="home__arrow-btn">
-                                <svg width="44" height="30" viewBox="0 0 44 30" fill="white" xmlns="http://www.w3.org/2000/svg" class="home__arrow-btn-icon">
-                                    <path d="M0.585785 13.5858C-0.195263 14.3668 -0.195263 15.6332 0.585785 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857862C15.3611 0.0768131 14.0948 0.076813 13.3137 0.857862L0.585785 13.5858ZM44 13L2 13L2 17L44 17L44 13Z" fill="inherit"/>
-                                </svg>                                    
-                            </button>
-
-                            <div class="progress-bar home__progress-bar">
-                                <span class="progress-bar__number progress-bar__number_start">
-                                    01
-                                </span>
-                                <div class="progress-bar__line">
-                                    <div class="progress-bar__line-item"></div>
-                                </div>
-                                <span class="progress-bar__number progress-bar__number_end">
-                                    03
-                                </span>
-                            </div>
-
-                            <button class="home__arrow-btn">
-                                <svg width="44" height="30" viewBox="0 0 44 30" fill="white" class="home__arrow-btn-icon" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M43.4142 16.4142C44.1953 15.6332 44.1953 14.3668 43.4142 13.5858L30.6863 0.857864C29.9052 0.0768156 28.6389 0.0768156 27.8579 0.857864C27.0768 1.63891 27.0768 2.90524 27.8579 3.68629L39.1716 15L27.8579 26.3137C27.0768 27.0948 27.0768 28.3611 27.8579 29.1421C28.6389 29.9232 29.9052 29.9232 30.6863 29.1421L43.4142 16.4142ZM0 17L42 17V13L0 13L0 17Z" fill="inherit"/>
-                                </svg>                                    
-                            </button>
-                        </section>
-
                     </div>
                 </section>
 
                 <section class="none home__item">
-                    <div class="container">
+                    <div class="container home__container">
 
                         <section class="home__row home__row_offer">
                             <h4 class="title-mini home__section-title">
@@ -155,37 +133,11 @@
                             </a>
                         </section>
 
-                        <section class="home__row home__row_progress-bar">
-                            <button class="home__arrow-btn">
-                                <svg width="44" height="30" viewBox="0 0 44 30" fill="white" xmlns="http://www.w3.org/2000/svg" class="home__arrow-btn-icon">
-                                    <path d="M0.585785 13.5858C-0.195263 14.3668 -0.195263 15.6332 0.585785 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857862C15.3611 0.0768131 14.0948 0.076813 13.3137 0.857862L0.585785 13.5858ZM44 13L2 13L2 17L44 17L44 13Z" fill="inherit"/>
-                                </svg>                                    
-                            </button>
-
-                            <div class="progress-bar home__progress-bar">
-                                <span class="progress-bar__number progress-bar__number_start">
-                                    01
-                                </span>
-                                <div class="progress-bar__line">
-                                    <div class="progress-bar__line-item"></div>
-                                </div>
-                                <span class="progress-bar__number progress-bar__number_end">
-                                    03
-                                </span>
-                            </div>
-
-                            <button class="home__arrow-btn">
-                                <svg width="44" height="30" viewBox="0 0 44 30" fill="white" class="home__arrow-btn-icon" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M43.4142 16.4142C44.1953 15.6332 44.1953 14.3668 43.4142 13.5858L30.6863 0.857864C29.9052 0.0768156 28.6389 0.0768156 27.8579 0.857864C27.0768 1.63891 27.0768 2.90524 27.8579 3.68629L39.1716 15L27.8579 26.3137C27.0768 27.0948 27.0768 28.3611 27.8579 29.1421C28.6389 29.9232 29.9052 29.9232 30.6863 29.1421L43.4142 16.4142ZM0 17L42 17V13L0 13L0 17Z" fill="inherit"/>
-                                </svg>                                    
-                            </button>
-                        </section>
-
                     </div>
                 </section>
 
                 <section class="none home__item">
-                    <div class="container">
+                    <div class="container home__container">
 
                         <section class="home__row home__row_offer">
                             <h4 class="title-mini home__section-title">
@@ -202,41 +154,51 @@
                             </a>
                         </section>
 
-                        <section class="home__row home__row_progress-bar">
-                            <button class="home__arrow-btn">
-                                <svg width="44" height="30" viewBox="0 0 44 30" fill="white" xmlns="http://www.w3.org/2000/svg" class="home__arrow-btn-icon">
-                                    <path d="M0.585785 13.5858C-0.195263 14.3668 -0.195263 15.6332 0.585785 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857862C15.3611 0.0768131 14.0948 0.076813 13.3137 0.857862L0.585785 13.5858ZM44 13L2 13L2 17L44 17L44 13Z" fill="inherit"/>
-                                </svg>                                    
-                            </button>
+                    </div>
+                </section>
 
-                            <div class="progress-bar home__progress-bar">
-                                <span class="progress-bar__number progress-bar__number_start">
-                                    01
-                                </span>
-                                <div class="progress-bar__line">
-                                    <div class="progress-bar__line-item"></div>
-                                </div>
-                                <span class="progress-bar__number progress-bar__number_end">
-                                    03
-                                </span>
+                <section class="home__progress-bar-block">
+                    <div class="container home__container_progress">
+                        <button class="home__arrow-btn home__arrow-btn_left">
+                            <svg width="44" height="30" viewBox="0 0 44 30" fill="white" xmlns="http://www.w3.org/2000/svg" class="home__arrow-btn-icon">
+                                <path d="M0.585785 13.5858C-0.195263 14.3668 -0.195263 15.6332 0.585785 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857862C15.3611 0.0768131 14.0948 0.076813 13.3137 0.857862L0.585785 13.5858ZM44 13L2 13L2 17L44 17L44 13Z" fill="inherit"/>
+                            </svg>                                    
+                        </button>
+
+                        <div class="progress-bar home__progress-bar">
+                            <span class="progress-bar__number progress-bar__number_current">
+                                01
+                            </span>
+                            <div class="progress-bar__line">
+                                <div class="progress-bar__line-item"></div>
                             </div>
+                            <span class="progress-bar__number progress-bar__number_end">
+                                03
+                            </span>
+                        </div>
 
-                            <button class="home__arrow-btn">
-                                <svg width="44" height="30" viewBox="0 0 44 30" fill="white" class="home__arrow-btn-icon" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M43.4142 16.4142C44.1953 15.6332 44.1953 14.3668 43.4142 13.5858L30.6863 0.857864C29.9052 0.0768156 28.6389 0.0768156 27.8579 0.857864C27.0768 1.63891 27.0768 2.90524 27.8579 3.68629L39.1716 15L27.8579 26.3137C27.0768 27.0948 27.0768 28.3611 27.8579 29.1421C28.6389 29.9232 29.9052 29.9232 30.6863 29.1421L43.4142 16.4142ZM0 17L42 17V13L0 13L0 17Z" fill="inherit"/>
-                                </svg>                                    
-                            </button>
-                        </section>
-
+                        <button class="home__arrow-btn home__arrow-btn_right">
+                            <svg width="44" height="30" viewBox="0 0 44 30" fill="white" class="home__arrow-btn-icon" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.4142 16.4142C44.1953 15.6332 44.1953 14.3668 43.4142 13.5858L30.6863 0.857864C29.9052 0.0768156 28.6389 0.0768156 27.8579 0.857864C27.0768 1.63891 27.0768 2.90524 27.8579 3.68629L39.1716 15L27.8579 26.3137C27.0768 27.0948 27.0768 28.3611 27.8579 29.1421C28.6389 29.9232 29.9052 29.9232 30.6863 29.1421L43.4142 16.4142ZM0 17L42 17V13L0 13L0 17Z" fill="inherit"/>
+                            </svg>                                    
+                        </button>
                     </div>
                 </section>
 
             </section>
+
+            <!-- Home End -->
+
         </main>
 
         <!-- Main End -->
 
     </div>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="assets/js/index.js"></script>
 </body>
 </html>
